@@ -1,2 +1,2 @@
-# CRONDA-
+# CRONDA
 Cron for deletion application (CRONDA)
