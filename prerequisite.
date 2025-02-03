@@ -1,0 +1,44 @@
+1. System Requirements
+
+Operating System: Linux/macOS (preferred) or Windows with WSL
+CPU: Minimum 2 cores
+RAM: At least 2GB (4GB recommended)
+Storage: Minimum 500MB free space
+
+2. Required Software
+
+Python (>= 3.x) – Ensure Python is installed and added to your system path.
+pip (Python Package Manager) – Comes with Python but ensure it's updated.
+Cron Scheduler (for Linux/macOS) or Task Scheduler (for Windows)
+Docker (Optional, for containerized deployment)
+
+3. Python Dependencies
+
+pip install -r requirements.txt
+pip install schedule logging argparse
+
+4. Permissions
+
+chmod +x cronda.py
+If using a cloud environment, ensure proper IAM roles and permissions for scheduled execution.
+
+5. Configuration
+
+Modify the config.yaml or .env file to set up the application-specific configurations
+
+Define the deletion schedule within the crontab file:
+crontab -e
+0 0 * * * /usr/bin/python3 /path/to/cronda.py
+
+6. Database (If applicable)
+
+Ensure the application can connect to the required database.
+Run migration scripts if necessary.
+
+7. Logging & Monitoring
+
+Check logs in logs/cronda.log to verify the application’s execution.
+Set up monitoring if running in production.
+
+
+
