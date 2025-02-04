@@ -1,0 +1,26 @@
+# Task scheduling and cron jobs
+schedule==1.2.0
+APScheduler==3.10.4
+
+# AWS SDK (if interacting with AWS services like S3, EC2, etc.)
+boto3==1.34.0
+
+# Logging and monitoring
+loguru==0.7.2
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Optional: Database support (if storing logs or metadata)
+SQLAlchemy==2.0.23
+sqlite-utils==3.36
+
+# Optional: HTTP API (if CRONDA exposes an API)
+Flask==3.0.0
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Optional: YAML support (if configurations are stored in YAML)
+PyYAML==6.0.1
+
+pip install -r requirements.txt
