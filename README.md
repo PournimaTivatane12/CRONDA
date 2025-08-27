@@ -1,7 +1,11 @@
-# CRONDA
-Cron for deletion application (CRONDA)
+# Cron for deletion application (CRONDA)
 
- CRONDA - Cron for Deletion Application
+# Architecture
+
+<img width="5467" height="2004" alt="image" src="https://github.com/user-attachments/assets/295c5297-0238-45dc-996f-ff7864f3f8e1" />
+
+
+
 
 CRONDA is an automated object management solution designed to manage scheduled deletions of resources in a cloud environment. Leveraging cron jobs, it ensures that your environment stays clean by automatically identifying and removing outdated or unused resources, helping optimize costs and maintain an organized infrastructure.
 
